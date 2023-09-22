@@ -49,6 +49,7 @@ conda activate mypytorch
 ```
 ### 3. Instale o pytorch1.8 no ambiente pytorch criado
 Instalar PyTorch: https://pytorch.org/get-started/locally/
+Verifique a versão do Cuda instalada e modifique
 ```
 conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 ```
@@ -77,7 +78,7 @@ cd yolov5_ros/yolov5
 ### 2. Instale os pre-requisitos no ambiente virtual criado
 
 ```
-sudo pip install -r requirements.txt
+sudo pip3 install -r requirements.txt
 ```
 
 ## Ajustando os parâmetros
